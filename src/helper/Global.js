@@ -1,5 +1,5 @@
 export const Global = {
 
-    baseUrl: 'http://localhost:4000/'
+    baseUrl: process.env.REACT_APP_BACKEND_URI
 
 };

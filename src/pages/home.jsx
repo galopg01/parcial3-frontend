@@ -64,8 +64,7 @@ const Home = () => {
                 <Header />
                 <main className="row justify-content-center" >
                     <h1 className="col-sm-6" >Home</h1>
-                    <div className="container pt-2">
-                        <div className="row col-sm-8">
+                    <div className="row col-sm-8">
                             {
                                 articulos.map(articulo => (
                                     <div className="col-4" key={articulo._id}>
@@ -80,8 +79,7 @@ const Home = () => {
                                         </div>
                                     </div>
                                 ))}
-                        </div>
-                    </div> 
+                    </div>
                     <div className='col-sm-8'>
                         <MapContainer center={[40.41831, -3.70275]} zoom={13} >
                             <TileLayer
